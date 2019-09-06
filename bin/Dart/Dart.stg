@@ -668,7 +668,7 @@ class <struct.name> extends <currentRule.name; format="cap">Context {
 ListenerDispatchMethod(method) ::= <<
 void <if(method.isEnter)>enter<else>exit<endif>Rule(ParseTreeListener listener) {
   if (listener is <parser.grammarName>Listener) 
-    listener.<if(method.isEnter)>enter<else>exit<endif><struct.derivedFromName; format="cap">(this);
+    (listener as <parser.grammarName>Listener).<if(method.isEnter)>enter<else>exit<endif><struct.derivedFromName; format="cap">(this);
 }
 >>
 
