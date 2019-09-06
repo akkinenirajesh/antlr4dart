@@ -1,6 +1,6 @@
 library return_values;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part "../grammars/return_values_lexer.dart";

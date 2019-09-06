@@ -1,6 +1,8 @@
 library test_error_listener;
 
 import 'package:antlr4dart/antlr4dart.dart';
+import 'package:bit_set/bit_set.dart';
+
 
 class TestErrorListener extends ErrorListener {
 
@@ -56,9 +58,9 @@ class TestErrorListener extends ErrorListener {
 
   BitSet _getConflictingAlts(BitSet reportedAlts, AtnConfigSet configs) {
     if (reportedAlts != null) return reportedAlts;
-    BitSet result = new BitSet();
-    for (AtnConfig config in configs) {
-      result.set(config.alt, true);
+    BitSet result = new BitSet(0);
+    for (AtnConfig config in configs.elements) {
+      result[config.alt] = true;
     }
     return result;
   }

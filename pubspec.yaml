@@ -6,6 +6,10 @@ homepage: https://github.com/tiagomazzutti/antlr4dart.git
 dependencies:
   antlr4dart:
     path: antlr4dart-runtime
-  bignum: any
-  browser: any
-  unittest: any
+  test: ^1.6.8
+  bit_set: 
+    git: https://github.com/skalkin/bit_set.git 
+  collection: any  
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"

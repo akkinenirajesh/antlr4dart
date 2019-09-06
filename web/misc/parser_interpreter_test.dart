@@ -1,6 +1,6 @@
 library parser_interpreter_test;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part '../grammars/a_or_b_parser1.dart';

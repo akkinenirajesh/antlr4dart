@@ -1,6 +1,6 @@
 library position_sensitive;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part '../grammars/position_sensitive.dart';

@@ -1,6 +1,6 @@
 library atn_interpreter_test;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 import '../grammars/ambig_alt_choose1.dart' as ambig_alt_choose1;

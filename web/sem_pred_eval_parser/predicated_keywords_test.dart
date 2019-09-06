@@ -1,6 +1,6 @@
 library predicated_keywords;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part '../grammars/predicated_keywords.dart';

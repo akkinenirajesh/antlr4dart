@@ -1,6 +1,6 @@
 library whitespace_influence;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 import '../test_error_listener.dart';
 

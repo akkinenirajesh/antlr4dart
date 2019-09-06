@@ -1,6 +1,6 @@
 library enum_not_id;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part '../grammars/enum_not_id.dart';

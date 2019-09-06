@@ -1,6 +1,6 @@
 library parameters;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part "../grammars/parameters_lexer.dart";

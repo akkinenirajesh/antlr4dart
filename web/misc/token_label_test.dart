@@ -1,6 +1,6 @@
 library token_label;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 part "../grammars/token_label_lexer.dart";

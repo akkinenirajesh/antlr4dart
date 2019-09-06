@@ -1,6 +1,6 @@
 library common_token_source_tests;
 
-import "package:unittest/unittest.dart";
+import "package:test/test.dart";
 import "package:antlr4dart/antlr4dart.dart";
 
 main() {
